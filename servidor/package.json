@@ -1,0 +1,26 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "momento 2",
+  "main": "app.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node app.js"
+  },
+
+  "keywords": [
+    "api",
+    "cesde"
+  ],
+  "author": "JFS",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.9",
+    "nodemon": "^2.0.7",
+    "yargs": "^16.2.0"
+  }
+}
